@@ -19,7 +19,7 @@ export default function Header() {
     <header className={`fixed top-0 w-full h-24 z-50 flex transition-all duration-300 ${show ? 'bg-orange-500 backdrop-blur-md' : '-translate-y-full'}`}>
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between w-full">
         <Image
-          src="/images/site-logo.webp"
+          src="/images/logo.png"
           alt="Suitmedia Logo"
           width={100}
           height={40}
