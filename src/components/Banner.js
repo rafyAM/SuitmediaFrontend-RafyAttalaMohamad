@@ -4,7 +4,7 @@ export default function Banner() {
   return (
    <section className="relative mt-20 h-96 bg-gray-800 overflow-hidden">
       <div className="absolute inset-0">
-        <Image src="/images/hero-bg.png" alt="Creative sketches and design concepts background" fill className="object-cover opacity-30" />
+        <Image src="/images/default.jpeg" alt="Creative sketches and design concepts background" fill className="object-cover opacity-30" />
       </div>
       <div className="relative z-10 flex items-center justify-center h-full text-center">
         <div>

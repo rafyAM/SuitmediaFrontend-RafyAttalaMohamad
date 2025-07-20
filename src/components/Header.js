@@ -16,16 +16,16 @@ export default function Header() {
   }, [scrollY]);
 
   return (
-    <header className={`fixed top-0 w-full h-24 z-50 items-center transition-all duration-300 ${show ? 'bg-orange-500 backdrop-blur-md' : '-translate-y-full'}`}>
-      <nav className="flex max-w-6xl mx-auto px-10 py-3 justify-between items-center">
+    <header className={`fixed top-0 w-full h-24 z-50 flex transition-all duration-300 ${show ? 'bg-orange-500 backdrop-blur-md' : '-translate-y-full'}`}>
+      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between w-full">
         <Image
           src="/images/site-logo.webp"
           alt="Suitmedia Logo"
           width={100}
           height={40}
           className='brightness-0 invert'
-        />
-        <ul className="flex font-medium gap-4">
+          />
+        <ul className="flex items-center font-medium text-white text-lg gap-4 ">
           <li>Work</li>
           <li>About</li>
           <li>Services</li>
@@ -33,7 +33,7 @@ export default function Header() {
           <li>Culture</li>
           <li>Careers</li>
         </ul>
-      </nav>
+      </div>
     </header>
   );
 }
